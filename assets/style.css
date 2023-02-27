@@ -58,3 +58,30 @@ td{
 tr:first-child, tr:last-child{
     background-color: aqua;
 }
+.ads{
+    font-weight: bold;
+    color: darkslategray;
+}
+aside, main{
+    margin-left: 5px;
+}
+.monitor, .graph{
+    width: 312px;
+    height: 208px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.monitor{
+    background-image: url(../img/monitor.jpg);
+}
+.graph{
+    background-image: url(../img/graph.jpg);
+}
+.ads-text{
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+.graph{
+    margin-bottom: 30px;
+}
