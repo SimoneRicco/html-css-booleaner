@@ -31,3 +31,16 @@ header{
 .highlighted{
     background-color: yellow;
 }
+table{
+    text-align: left;
+}
+th{
+    color: white;
+    background-color: dodgerblue;
+}
+td{
+    min-width: 300px;
+}
+tr:first-child, tr:last-child{
+    background-color: aqua;
+}
