@@ -8,8 +8,6 @@ header{
     background-image: url(../img/pattern.png);
     background-size: contain;
     background-color: cornflowerblue;
-    position: relative;
-    width: 100vw;
 }
 #logo{
     height: 50%;
@@ -85,10 +83,13 @@ aside, main{
 .graph{
     margin-bottom: 30px;
 }
-.container{
+main{
     width: 80%;
     margin: auto;
 }
-main{
-    background-color: blueviolet;
+.image-logo{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    position: relative;
 }
