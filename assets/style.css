@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 header{
     height: 75px;
     background-image: url(../img/pattern.png);
@@ -12,6 +17,17 @@ header{
     bottom: 5px;
     left: 5px;
 }
+ul{
+    margin-left: 20px;
+}
+.title-writer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text-content, table, ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .writer{
     color: rgb(130, 130, 130);
 }
@@ -25,14 +41,12 @@ header{
 .images-info{
     font-size: small;
 }
-.text-content{
-    margin: 10px;
-}
 .highlighted{
     background-color: yellow;
 }
 table{
     text-align: left;
+    border-collapse: collapse;
 }
 th{
     color: white;
