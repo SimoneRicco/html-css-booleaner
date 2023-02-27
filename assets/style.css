@@ -25,3 +25,9 @@ header{
 .images-info{
     font-size: small;
 }
+.text-content{
+    margin: 10px;
+}
+.highlighted{
+    background-color: yellow;
+}
