@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 75px;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: cornflowerblue;
+    position: relative;
+    width: 100vw;
+}
+#logo{
+    height: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+ul{
+    margin-left: 20px;
+}
+.title-writer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text-content, table, ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.writer{
+    color: rgb(130, 130, 130);
+}
+.writer-name{
+    color: dodgerblue;
+}
+.date{
+    font-weight: normal;
+    font-size: small;
+}
+.images-info{
+    font-size: small;
+}
+.highlighted{
+    background-color: yellow;
+}
+table{
+    text-align: left;
+    border-collapse: collapse;
+}
+th{
+    color: white;
+    background-color: dodgerblue;
+}
+td{
+    min-width: 300px;
+}
+tr:first-child, tr:last-child{
+    background-color: aqua;
+}
+.ads{
+    font-weight: bold;
+    color: darkslategray;
+}
+aside, main{
+    margin-left: 5px;
+}
+.monitor, .graph{
+    width: 312px;
+    height: 208px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.monitor{
+    background-image: url(../img/monitor.jpg);
+}
+.graph{
+    background-image: url(../img/graph.jpg);
+}
+.ads-text{
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+.graph{
+    margin-bottom: 30px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+main{
+    background-color: blueviolet;
+}
