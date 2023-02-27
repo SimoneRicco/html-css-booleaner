@@ -1,0 +1,14 @@
+header{
+    height: 75px;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: cornflowerblue;
+    margin: 0;
+    position: relative;
+}
+#logo{
+    height: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
